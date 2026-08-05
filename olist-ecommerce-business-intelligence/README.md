@@ -1,7 +1,7 @@
 # portifolio-data-analysis
 
 
-Live Dashboard: https://app.powerbi.com/view?r=eyJrIjoiMTQ5MTQ3MDAtZTY1ZS00ZjA1LTgzYjktZjk2NGMzMmEzNjRkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9
+Live Dashboard: [Logistics Efficiency and Margin Protection Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMTQ5MTQ3MDAtZTY1ZS00ZjA1LTgzYjktZjk2NGMzMmEzNjRkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9)
 
 
 English Version
@@ -57,7 +57,7 @@ Dashboard created to solve financial and logistical bottlenecks in e-commerce, b
    
 4. Technical Architecture:
 
- - Data Cleaning: Performed in SQL Server, using Queries to create views of the cleaned tables, which were imported into Power BI.
+ - Data Cleaning: Performed in SQL Server (view the [SQL scripts](https://github.com/andersonargentino22/portifolio-data-analysis/tree/f67a6520d2b4459617fe1f36f8272577fc9e2560/olist-ecommerce-business-intelligence/sql_scripts)), using Queries to create views of the cleaned tables, which were imported into Power BI.
 
  - Data Modeling: Built upon a Star Schema (see the [data_mapping](https://github.com/andersonargentino22/portifolio-data-analysis/blob/6edc0589f32cdf6568ed32a839e3195f6bdd9b89/olist-ecommerce-business-intelligence/Assets/data_mapping)). Filter context transitions and "Chasm Trap" scenarios between Fact tables (v_fact_orders, v_fact_payments) were resolved using advanced DAX modeling, specifically the TREATAS function.
 
@@ -115,7 +115,7 @@ Respondendo as seguintes perguntas de negócio:
    
 4. Arquitetura Técnica:
 
- - Limpeza de Dados: Realizada no SQL Server, utilizando de Queries para criar visualizações das tabelas limpas, que foram importadas no Power BI.
+ - Limpeza de Dados: Realizada no SQL Server (Veja as [Consultas SQL](https://github.com/andersonargentino22/portifolio-data-analysis/tree/f67a6520d2b4459617fe1f36f8272577fc9e2560/olist-ecommerce-business-intelligence/sql_scripts)), utilizando de Queries para criar visualizações das tabelas limpas, que foram importadas no Power BI.
 
  - Modelagem de Dados: Construída sobre um Star Schema (veja o [data_mapping](https://github.com/andersonargentino22/portifolio-data-analysis/blob/6edc0589f32cdf6568ed32a839e3195f6bdd9b89/olist-ecommerce-business-intelligence/Assets/data_mapping)). Transições de contexto de filtro e cenários de "Chasm Trap" entre tabelas Fato (v_fact_orders, v_fact_payments) foram resolvidos usando modelagem avançada em DAX, especificamente a função TREATAS.
 
