@@ -56,7 +56,7 @@ Dashboard created to solve financial and logistical bottlenecks in e-commerce, b
 
  - Data Cleaning: Performed in SQL Server, using Queries to create views of the cleaned tables, which were imported into Power BI.
 
- - Data Modeling: Built upon a Star Schema (see the [data_dictionary](https://github.com/andersonargentino22/portifolio-data-analysis/blob/daa84383a0bfb58481313bb41ea51a6b2f2305d2/olist-ecommerce-business-intelligence/Assets/data_dictionary)). Filter context transitions and "Chasm Trap" scenarios between Fact tables (v_fact_orders, v_fact_payments) were resolved using advanced DAX modeling, specifically the TREATAS function.
+ - Data Modeling: Built upon a Star Schema (see the [data_mapping](https://github.com/andersonargentino22/portifolio-data-analysis/blob/6edc0589f32cdf6568ed32a839e3195f6bdd9b89/olist-ecommerce-business-intelligence/Assets/data_mapping)). Filter context transitions and "Chasm Trap" scenarios between Fact tables (v_fact_orders, v_fact_payments) were resolved using advanced DAX modeling, specifically the TREATAS function.
 
  - ETL & Engine: Engineered to avoid Circular Dependencies within the VertiPaq engine by creating independent DAX-based index columns for custom hierarchical sorting.
 
@@ -112,7 +112,7 @@ Respondendo as seguintes perguntas de negócio:
 
  - Limpeza de Dados: Realizada no SQL Server, utilizando de Queries para criar visualizações das tabelas limpas, que foram importadas no Power BI.
 
- - Modelagem de Dados: Construída sobre um Star Schema (veja o [data_dictionary](https://github.com/andersonargentino22/portifolio-data-analysis/blob/daa84383a0bfb58481313bb41ea51a6b2f2305d2/olist-ecommerce-business-intelligence/Assets/data_dictionary)). Transições de contexto de filtro e cenários de "Chasm Trap" entre tabelas Fato (v_fact_orders, v_fact_payments) foram resolvidos usando modelagem avançada em DAX, especificamente a função TREATAS.
+ - Modelagem de Dados: Construída sobre um Star Schema (veja o [data_mapping](https://github.com/andersonargentino22/portifolio-data-analysis/blob/6edc0589f32cdf6568ed32a839e3195f6bdd9b89/olist-ecommerce-business-intelligence/Assets/data_mapping)). Transições de contexto de filtro e cenários de "Chasm Trap" entre tabelas Fato (v_fact_orders, v_fact_payments) foram resolvidos usando modelagem avançada em DAX, especificamente a função TREATAS.
 
  - ETL & Motor: Projetado para evitar Dependências Circulares dentro do motor VertiPaq através da criação de colunas de índice independentes baseadas em DAX para ordenação hierárquica personalizada.
 
