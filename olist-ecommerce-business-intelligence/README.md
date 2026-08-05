@@ -56,7 +56,7 @@ Dashboard created to solve financial and logistical bottlenecks in e-commerce, b
 
  - Data Cleaning: Performed in SQL Server, using Queries to create views of the cleaned tables, which were imported into Power BI.
 
- - Data Modeling: Built upon a Star Schema. Filter context transitions and "Chasm Trap" scenarios between Fact tables (v_fact_orders, v_fact_payments) were resolved using advanced DAX modeling, specifically the TREATAS function.
+ - Data Modeling: Built upon a Star Schema (see the [data_dictionary](https://github.com/andersonargentino22/portifolio-data-analysis/blob/daa84383a0bfb58481313bb41ea51a6b2f2305d2/olist-ecommerce-business-intelligence/Assets/data_dictionary)). Filter context transitions and "Chasm Trap" scenarios between Fact tables (v_fact_orders, v_fact_payments) were resolved using advanced DAX modeling, specifically the TREATAS function.
 
  - ETL & Engine: Engineered to avoid Circular Dependencies within the VertiPaq engine by creating independent DAX-based index columns for custom hierarchical sorting.
 
