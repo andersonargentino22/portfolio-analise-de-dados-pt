@@ -52,7 +52,10 @@ Dashboard created to solve financial and logistical bottlenecks in e-commerce, b
 <img width="368" height="606" alt="646dc649-ad86-47b5-9c4c-c95959c67ace" src="https://github.com/user-attachments/assets/39fb7609-a8be-4211-9962-77283e968122" />
 <img width="336" height="238" alt="d3e5b230-48da-4679-be93-2c1aebae1429" src="https://github.com/user-attachments/assets/ab7e70f0-4241-44a9-94c3-85d1b79b30f4" />
 
-3. Technical Architecture:
+
+3. Project Governance: Check the [Scope of Work (SOW)](https://github.com/andersonargentino22/portifolio-data-analysis/blob/30d85bb6ea0ca8df1a19e096eccddbc959dc9dc0/olist-ecommerce-business-intelligence/Assets/SOW%20-%20Brazilian%20E-Commerce.pdf) for detailed project scope, deliverables, and timeline.
+   
+4. Technical Architecture:
 
  - Data Cleaning: Performed in SQL Server, using Queries to create views of the cleaned tables, which were imported into Power BI.
 
@@ -108,7 +111,9 @@ Respondendo as seguintes perguntas de negócio:
 <img width="368" height="606" alt="646dc649-ad86-47b5-9c4c-c95959c67ace" src="https://github.com/user-attachments/assets/39fb7609-a8be-4211-9962-77283e968122" />
 <img width="336" height="238" alt="d3e5b230-48da-4679-be93-2c1aebae1429" src="https://github.com/user-attachments/assets/ab7e70f0-4241-44a9-94c3-85d1b79b30f4" />
 
-3. Arquitetura Técnica:
+3. Governança do Projeto: Verifique o [Escopo do Projeto (SOW)](https://github.com/andersonargentino22/portifolio-data-analysis/blob/30d85bb6ea0ca8df1a19e096eccddbc959dc9dc0/olist-ecommerce-business-intelligence/Assets/SOW%20-%20Brazilian%20E-Commerce.pdf) para obter escopo detalhado do projeto, entregáveis e cronograma.
+   
+4. Arquitetura Técnica:
 
  - Limpeza de Dados: Realizada no SQL Server, utilizando de Queries para criar visualizações das tabelas limpas, que foram importadas no Power BI.
 
