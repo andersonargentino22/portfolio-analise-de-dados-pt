@@ -4,7 +4,7 @@
 ## Sobre o Projeto:
 ### Dashboard criado com o intuito de solucionar gargalos financeiros e logísticos de E-commerce, baseado no conjunto de dados Brazilian E-Commerce (Olist).
 ---
-### Perguntas de negócio:
+## Perguntas de negócio:
 
 ## 1. Visão Comercial e Financeira
 
