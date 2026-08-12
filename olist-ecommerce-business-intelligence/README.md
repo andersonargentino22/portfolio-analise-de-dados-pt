@@ -1,77 +1,12 @@
-# portifolio-data-analysis
+# Olist Brazilian E-Commerce Live Dashboard: 
+## [Dashboard de Eficiência Logística e Proteção de Margem](https://app.powerbi.com/view?r=eyJrIjoiMTQ5MTQ3MDAtZTY1ZS00ZjA1LTgzYjktZjk2NGMzMmEzNjRkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9)
+---
+## Sobre o Projeto:
+### Dashboard criado com o intuito de solucionar gargalos financeiros e logísticos de E-commerce, baseado no conjunto de dados Brazilian E-Commerce (Olist).
+---
+### Perguntas de negócio:
 
-
-Live Dashboard: [Logistics Efficiency and Margin Protection Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMTQ5MTQ3MDAtZTY1ZS00ZjA1LTgzYjktZjk2NGMzMmEzNjRkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9)
-
-
-English Version
-
-
-Dashboard created to solve financial and logistical bottlenecks in e-commerce, based on the Brazilian E-Commerce (Olist) dataset. Answering the following business questions:
-
-
-1. Commercial and Financial Overview
-
- - What is the direct financial impact of our operational inefficiency? How much of our revenue is exposed or lost due to delivery promise breaches?
-
- - Does our business model survive on single-purchase customers, or are we successfully retaining them for repeat purchases?
-
- - What is the absolute and financial volume of sales we close but fail to convert into actual revenue due to cancellations?
-
- - How does revenue behave across the months? Are there clear seasonality patterns requiring cash and inventory reinforcement in specific periods?
-
- - Which product categories truly sustain the company, and where should we allocate the largest marketing budget?
-
- - Does our operation have a healthy revenue distribution across the country, or are we dependent on a few states (market risk)?
-
- - How can we optimize our sales mix? Where are our star products (high volume and high average ticket), and which ones are merely entry-level?
-
- - What is the company's liquidity profile? Are we highly exposed to credit card installments, or do we have upfront cash flow via boleto?
-   
-
-2. Operational and Logistics Overview
-
- - What is the true size of our logistics liability? What proportion of customers have a frustrating experience with our brand?
-
- - On average, how long is our customer's capital tied up waiting for the purchased product?
-
- - In which regions is our freight cost disproportionate to the product price, creating a commercial barrier that scares the customer away at the cart?
-
- - Is there a direct mathematical correlation proving that our slowest logistics partners are directly responsible for sales cancellations?
-
- - Which states represent the biggest logistics bottlenecks, consistently failing to meet delivery promises?
-
- - Does the current logistics network serve the country evenly, or are customers waiting abusive timeframes depending on their zip code?
-
- - Are there specific product niches suffering more from chargebacks, indicating potential chronic supplier quality issues or shipping fragility?
-
- - How much of our working capital is currently floating and invisible on the streets, tied up in goods in transit, internal processing, or unresolved cancellations?
-   
-
-<img width="743" height="236" alt="3fd90610-85ae-4408-9aa9-b1e0fbe851be" src="https://github.com/user-attachments/assets/28317839-f7f2-4317-a939-d11688273881" />
-<img width="368" height="606" alt="646dc649-ad86-47b5-9c4c-c95959c67ace" src="https://github.com/user-attachments/assets/39fb7609-a8be-4211-9962-77283e968122" />
-<img width="336" height="238" alt="d3e5b230-48da-4679-be93-2c1aebae1429" src="https://github.com/user-attachments/assets/ab7e70f0-4241-44a9-94c3-85d1b79b30f4" />
-
-
-3. Project Governance: Check the [Scope of Work (SOW)](https://github.com/andersonargentino22/portifolio-data-analysis/blob/30d85bb6ea0ca8df1a19e096eccddbc959dc9dc0/olist-ecommerce-business-intelligence/Assets/SOW%20-%20Brazilian%20E-Commerce.pdf) for detailed project scope, deliverables, and timeline.
-   
-4. Technical Architecture:
-
- - Data Cleaning: Performed in SQL Server (view the [SQL scripts](https://github.com/andersonargentino22/portifolio-data-analysis/tree/f67a6520d2b4459617fe1f36f8272577fc9e2560/olist-ecommerce-business-intelligence/sql_scripts)), using Queries to create views of the cleaned tables, which were imported into Power BI.
-
- - Data Modeling: Built upon a Star Schema (see the [data_mapping](https://github.com/andersonargentino22/portifolio-data-analysis/blob/6edc0589f32cdf6568ed32a839e3195f6bdd9b89/olist-ecommerce-business-intelligence/Assets/data_mapping)). Filter context transitions and "Chasm Trap" scenarios between Fact tables (v_fact_orders, v_fact_payments) were resolved using advanced DAX modeling, specifically the TREATAS function.
-
- - ETL & Engine: Engineered to avoid Circular Dependencies within the VertiPaq engine by creating independent DAX-based index columns for custom hierarchical sorting.
-
- <img width="841" height="792" alt="405287da-1e1c-416a-8701-d06f6a5f8d3f" src="https://github.com/user-attachments/assets/0a0a030c-062c-4bfb-b497-fe78f3a002a5" />
- 
-
-Versão em Português
-
-Dashboard criado com o intuito de solucionar gargalos financeiros e logísticos de E-commerce, baseado no conjunto de dados Brazilian E-Commerce (Olist).
-Respondendo as seguintes perguntas de negócio:
-
-1. Visão Comercial e Financeira
+## 1. Visão Comercial e Financeira
 
  - Qual é o impacto financeiro direto da nossa ineficiência operacional? Quanto da nossa receita está sendo exposta ou perdida devido a quebras de promessa de entrega?
 
@@ -89,7 +24,7 @@ Respondendo as seguintes perguntas de negócio:
 
  - Qual é o perfil de liquidez da empresa? Estamos muito expostos a parcelamentos no cartão de crédito ou temos entrada de dinheiro à vista no boleto?
 
-2. Visão Operacional e Logística
+## 2. Visão Operacional e Logística
 
  - Qual é o tamanho real do nosso passivo logístico? Qual a proporção de clientes que têm uma experiência frustrada com a nossa marca?
 
@@ -111,9 +46,9 @@ Respondendo as seguintes perguntas de negócio:
 <img width="368" height="606" alt="646dc649-ad86-47b5-9c4c-c95959c67ace" src="https://github.com/user-attachments/assets/39fb7609-a8be-4211-9962-77283e968122" />
 <img width="336" height="238" alt="d3e5b230-48da-4679-be93-2c1aebae1429" src="https://github.com/user-attachments/assets/ab7e70f0-4241-44a9-94c3-85d1b79b30f4" />
 
-3. Governança do Projeto: Verifique o [Escopo do Projeto (SOW)](https://github.com/andersonargentino22/portifolio-data-analysis/blob/30d85bb6ea0ca8df1a19e096eccddbc959dc9dc0/olist-ecommerce-business-intelligence/Assets/SOW%20-%20Brazilian%20E-Commerce.pdf) para obter escopo detalhado do projeto, entregáveis e cronograma.
+## 3. Governança do Projeto: Verifique o [Escopo do Projeto (SOW)](https://github.com/andersonargentino22/portifolio-data-analysis/blob/30d85bb6ea0ca8df1a19e096eccddbc959dc9dc0/olist-ecommerce-business-intelligence/Assets/SOW%20-%20Brazilian%20E-Commerce.pdf) para obter escopo detalhado do projeto, entregáveis e cronograma.
    
-4. Arquitetura Técnica:
+## 4. Arquitetura Técnica:
 
  - Limpeza de Dados: Realizada no SQL Server (Veja as [Consultas SQL](https://github.com/andersonargentino22/portifolio-data-analysis/tree/f67a6520d2b4459617fe1f36f8272577fc9e2560/olist-ecommerce-business-intelligence/sql_scripts)), utilizando de Queries para criar visualizações das tabelas limpas, que foram importadas no Power BI.
 
