@@ -1,5 +1,6 @@
 # Olist Brazilian E-Commerce Live Dashboard: 
 ## [Dashboard de Eficiência Logística e Proteção de Margem](https://app.powerbi.com/view?r=eyJrIjoiMTQ5MTQ3MDAtZTY1ZS00ZjA1LTgzYjktZjk2NGMzMmEzNjRkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9)
+
 ---
 ## Sobre o Projeto:
 ### Dashboard criado com o intuito de solucionar gargalos financeiros e logísticos de E-commerce, baseado no conjunto de dados Brazilian E-Commerce (Olist).
