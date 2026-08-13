@@ -23,12 +23,12 @@
  - Como podemos otimizar o mix de vendas? Onde estão nossos produtos estrela (alto volume de saída e alto ticket médio) e quais são apenas produtos de entrada?
 
  - Qual é o perfil de liquidez da empresa? Estamos muito expostos a parcelamentos no cartão de crédito ou temos entrada de dinheiro à vista no boleto?
+<img width="4150" height="2400" alt="Dashboard_jpg-1" src="https://github.com/user-attachments/assets/86984c07-c3b5-4e6f-b106-bb67cd9b8c22" />
+
 
 ## 2. Visão Operacional e Logística
 
- - Qual é o tamanho real do nosso passivo logístico? Qual a proporção de clientes que têm uma experiência frustrada com a nossa marca?
-
- - Em média, quanto tempo nosso cliente fica com o capital retido esperando pelo produto que comprou?
+ - Qual a proporção de clientes que têm uma experiência frustrada com a nossa marca?
 
  - Em quais regiões o valor do nosso frete é desproporcional ao preço do produto, criando uma barreira comercial que afugenta o cliente no carrinho?
 
@@ -39,12 +39,8 @@
  - A malha logística atual atende o país de forma equilibrada ou temos clientes aguardando prazos abusivos dependendo do seu CEP?
 
  - Existem nichos de produtos específicos que sofrem mais com estornos, indicando possíveis problemas crônicos de qualidade do fornecedor ou fragilidade no transporte?
+<img width="4150" height="2400" alt="Dashboard_jpg-2" src="https://github.com/user-attachments/assets/c33fd708-75d9-40e8-9fc3-8d4271bfceed" />
 
- - Quanto do nosso capital de giro no momento está flutuando e invisível na rua, preso em mercadorias em trânsito, processamento interno ou cancelamentos não resolvidos?
-
-<img width="743" height="236" alt="3fd90610-85ae-4408-9aa9-b1e0fbe851be" src="https://github.com/user-attachments/assets/28317839-f7f2-4317-a939-d11688273881" />
-<img width="368" height="606" alt="646dc649-ad86-47b5-9c4c-c95959c67ace" src="https://github.com/user-attachments/assets/39fb7609-a8be-4211-9962-77283e968122" />
-<img width="336" height="238" alt="d3e5b230-48da-4679-be93-2c1aebae1429" src="https://github.com/user-attachments/assets/ab7e70f0-4241-44a9-94c3-85d1b79b30f4" />
 
 ## 3. Governança do Projeto: Verifique o [Escopo do Projeto (SOW)](https://github.com/andersonargentino22/portifolio-data-analysis/blob/30d85bb6ea0ca8df1a19e096eccddbc959dc9dc0/olist-ecommerce-business-intelligence/Assets/SOW%20-%20Brazilian%20E-Commerce.pdf) para obter escopo detalhado do projeto, entregáveis e cronograma.
    
