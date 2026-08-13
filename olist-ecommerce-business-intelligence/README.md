@@ -46,7 +46,7 @@
    
 ## 4. Arquitetura Técnica:
 
- - Limpeza de Dados: Realizada no SQL Server (Veja as [Consultas SQL](https://github.com/andersonargentino22/portifolio-data-analysis/tree/f67a6520d2b4459617fe1f36f8272577fc9e2560/olist-ecommerce-business-intelligence/sql_scripts)), utilizando de Queries para criar visualizações das tabelas limpas, que foram importadas no Power BI.
+ - Limpeza de Dados: Realizada no SQL Server (Veja as [Consultas SQL](https://github.com/andersonargentino22/portfolio-analise-de-dados-pt/blob/8631d100cf83b4cdf57f572b732f53cefe188e49/olist-ecommerce-business-intelligence/SQL/etl_scripts)), utilizando de Queries para criar visualizações das tabelas limpas, que foram importadas no Power BI.
 
  - Modelagem de Dados: Construída sobre um Star Schema (veja o [data_mapping](https://github.com/andersonargentino22/portifolio-data-analysis/blob/6edc0589f32cdf6568ed32a839e3195f6bdd9b89/olist-ecommerce-business-intelligence/Assets/data_mapping)). Transições de contexto de filtro e cenários de "Chasm Trap" entre tabelas Fato (v_fact_orders, v_fact_payments) foram resolvidos usando modelagem avançada em DAX, especificamente a função TREATAS.
 
