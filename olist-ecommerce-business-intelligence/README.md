@@ -3,7 +3,8 @@
 
 ---
 ## Sobre o Projeto:
-### Dashboard criado com o intuito de solucionar gargalos financeiros e logísticos de E-commerce, baseado no conjunto de dados Brazilian E-Commerce (Olist).
+### Dashboard criado com o intuito de solucionar gargalos financeiros e logísticos de E-commerce.
+### Baseado no conjunto de dados [Brazilian E-Commerce (Olist)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 ---
 ## Perguntas de negócio:
 
