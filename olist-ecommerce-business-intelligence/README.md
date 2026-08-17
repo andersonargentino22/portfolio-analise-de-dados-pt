@@ -44,7 +44,8 @@
 <img width="4150" height="2400" alt="Dashboard_jpg-2" src="https://github.com/user-attachments/assets/c33fd708-75d9-40e8-9fc3-8d4271bfceed" />
 
 
-## 3. Governança do Projeto: Verifique o [Escopo do Projeto (SOW)](https://github.com/andersonargentino22/portifolio-data-analysis/blob/30d85bb6ea0ca8df1a19e096eccddbc959dc9dc0/olist-ecommerce-business-intelligence/Assets/SOW%20-%20Brazilian%20E-Commerce.pdf) para obter escopo detalhado do projeto, entregáveis e cronograma.
+## 3. Governança do Projeto: 
+Verifique o [Escopo do Projeto (SOW)](https://github.com/andersonargentino22/portifolio-data-analysis/blob/30d85bb6ea0ca8df1a19e096eccddbc959dc9dc0/olist-ecommerce-business-intelligence/Assets/SOW%20-%20Brazilian%20E-Commerce.pdf) para obter escopo detalhado do projeto, entregáveis e cronograma.
    
 ## 4. Arquitetura Técnica:
 
